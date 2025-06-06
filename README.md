@@ -22,4 +22,4 @@ A Python application that extracts audio from video files and transcribes it usi
 2. Install required packages:
 
 ```bash
-pip3 install -r requirements.txt```
+pip3 install -r requirements.txt
