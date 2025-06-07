@@ -27,7 +27,7 @@ print("Transcription:")
 print(result["text"])
 
 # Save to file with timestamps
-with open("transcription.txt", "w") as f:
+with open("video_transcription.txt", "w") as f:
     for segment in result["segments"]:
         start_time = segment["start"]
         end_time = segment["end"]
